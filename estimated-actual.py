@@ -32,7 +32,8 @@ insurance_cost_difference = [ ["Maria", insurance_costs[0] - maria_insurance_cos
 
 print("\n Here is the difference between the actual insurance cost data and the estimated insurance cost data for each individual: " + str(insurance_cost_difference))
 
-#Estimate the insurance cost for a new individual, Akira, who is a 19 year-old male non-smoker with no children and a BMI of 27.1. Make sure to append his name to names and his actual insurance cost, 2930.0, to insurance_costs.
+#Estimate the insurance cost for a new individual, Akira, who is a 19 year-old male non-smoker with no children and a BMI of 27.1. 
+#Make sure to append his name to names and his actual insurance cost, 2930.0, to insurance_costs.
 
 akira_insurance_cost = estimate_insurance_cost(name = "Akira", age = 19, sex = 1, bmi = 27.1, num_of_children = 0, smoker = 0)
 
